@@ -127,3 +127,19 @@ span {
     padding-bottom: 0;
     padding-top: 20px;
 }
+
+@media only screen and (max-width: 815px) {
+    header {
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 0;
+    }
+
+    #projects iframe {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
