@@ -17,14 +17,14 @@ header {
 	border-bottom: #e8491d 3px solid;
 }
 
-header a {
+a {
 	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
 }
 
-header li {
+li {
 	display: inline;
 	padding: 0 20px;
 }
@@ -74,10 +74,10 @@ header a:hover {
 #projects {
     text-align: center;
     padding-top: 30px; 
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
-#projects span {
+span {
     font-size: 45px;
     background-color: #e8491d;
     color: #ddd;
@@ -89,6 +89,7 @@ header a:hover {
 
 #projects #projects-container {
     padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 #projects #projects-container iframe {
@@ -96,3 +97,34 @@ header a:hover {
     border-radius: 5px;
 }
 
+#projects p {
+    color: #e8491d;
+}
+
+#contacts {
+    text-align: center;
+    padding-top: 30px; 
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+#contacts ul {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#contacts #profile-link {
+    padding: 100px;
+}
+
+#credit {
+    background-color: #e8491d;
+    text-align: center;
+    padding: 30px;
+}
+
+#credit p {
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
